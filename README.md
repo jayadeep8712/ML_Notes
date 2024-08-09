@@ -15,10 +15,10 @@
   - - - -
 
 - mkdir ml_lab-5                                      <- creates a folder (Directory)
-- git add .
+<!-- - git add .
 - git commit -m "empty file"
   1. ***o/p -> Your branch is up to date with 'origin/main'***
-  2. ***o/p -> nothing to commit, working tree clean***
+  2. ***o/p -> nothing to commit, working tree clean*** -->
 - cd *lab-5                                           <- means select that file which has something on the left side of the * but lab-5 present on the folder name
 - Ex :  cd my*                                        <- means the folder name starts with my and remaining name what ever let it be select that file
 - touch .gitkeep                                      <- means creates a  .gitkeep file to a newly made folder (directory) which is empty. so to add such empty directories we use this
