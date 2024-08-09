@@ -12,7 +12,7 @@
 - git commit -m "add files"
 - git push
 
- 
+- - - -
 
 - mkdir ml_lab-5                                      <- creates a folder (Directory)
 - git add .
