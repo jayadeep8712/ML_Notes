@@ -1,9 +1,6 @@
 # ML_Notes
 
-#*Git - Notes*
-
--> copy - ctrl+ins (0)
--> paste - ctrl+shift
+# *Git - Notes*
 
 cd E:/Sem7
 ls                                                  <- means list of items in that folder
