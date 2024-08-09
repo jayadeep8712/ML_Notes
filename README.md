@@ -1,6 +1,6 @@
 # ML_Notes
 
-##Git - Notes
+#*Git - Notes*
 
 -> copy - ctrl+ins (0)
 -> paste - ctrl+shift
