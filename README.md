@@ -13,7 +13,7 @@
 - git push
 
   - - - -
->> To add an empty dir to my repo
+> #### *To add an empty dir to my repo*
 - mkdir ml_lab-5                                      <- creates a folder (Directory)
 <!-- - git add .
 - git commit -m "empty file"
