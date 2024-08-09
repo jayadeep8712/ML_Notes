@@ -2,7 +2,7 @@
 
 # *Git - Notes*
 
-cd E:/Sem7
+- cd E:/Sem7
 ls                                                  <- means list of items in that folder
 git clone https://github.com/jayadeep8712/ML_Notes.git -> 
 o/p ->  Cloning into 'ML_Notes'...
