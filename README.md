@@ -27,6 +27,7 @@
   1. ***o/p -> create mode 100644 my-new-directory/.gitkeep***
 - git push
 
+  ![picture alt]( https://itknowledgeexchange.techtarget.com/coffee-talk/files/2020/09/what-is-gitkeep-example.png ".gitkeep")
 
 - git rm --cached ml_lab-1                            <- means to remove that directory (only works for repos delection)
 - git submodule add <url> ml_lab-1                    <- If you meant to add a submodule, we use this
