@@ -73,10 +73,11 @@
    $ git remote -v
    ```
 
-7.  git push --set-upstream origin main
+7. ```bash
+   git push --set-upstream origin main
+   ```
 
-
-8.**Using --allow-unrelated-histories**:
+8. **Using --allow-unrelated-histories**:
    This magical flag tells Git, “Hey, it’s okay if the histories are unrelated; go ahead and merge anyway!”
    ```bash
    git pull origin main --allow-unrelated-histories
