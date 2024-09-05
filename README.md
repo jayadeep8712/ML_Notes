@@ -10,7 +10,7 @@
 - ls
 - git add .                                           <- '.' means add all files in the folder
 - git commit -m "add files"
-- git pushcd
+- git push
 
   - - - -
 > ### *To add an empty dir to my repo*
@@ -38,4 +38,54 @@
 - git rm css/* --dry-run                              <- When trying to delete multiple files in a directory or via a glob pattern, you might want to perform a "dry-run" first and see which files would be removed
    - rm 'css/about.css'
    - rm 'css/general.css'
+ 
+- - - -
+
+### *How to clone a git repo to an existing folder (not empty)*
+ 
+1. **Navigate to the Existing Directory**:
+   ```bash
+   $ cd my/folder/
+   ```
+
+2. **Initialize a New Git Repository**:
+   ```bash
+   $ git init
+   ```
+
+3. **Review and Create a `.gitignore` File**:
+   - Identify which files or directories should be excluded from version control.
+   - Edit the `.gitignore` file accordingly.
+
+4. **Create Your First Commit Locally**:
+   ```bash
+   $ git add .
+   $ git commit -m 'My first commit'
+   ```
+
+5. **Add a Remote Repository (Origin)**:
+   ```bash
+   $ git remote add origin https|ssh:path/to/the/repository.git
+   ```
+
+6. **To verify that it has been added correctly, run**:
+   ```bash
+   $ git remote -v
+   ```
+
+7.  git push --set-upstream origin main
+
+
+8.**Using --allow-unrelated-histories**:
+   This magical flag tells Git, “Hey, it’s okay if the histories are unrelated; go ahead and merge anyway!”
+   ```bash
+   git pull origin main --allow-unrelated-histories
+   ```
+
+
+9. **Pull and Merge with the Remote Repository**:
+   ```bash
+   $ git pull origin main
+   ```
+
  
