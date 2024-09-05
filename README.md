@@ -2,7 +2,7 @@
 
 > ###  *Git - Notes*
 
-- cd E:/Sem7
+- cd E:/Sem7 ( cd .. <- previous folder, clear <- in Gitbash & cls <- in cmd prompt for clear)
 - ls                                                  <- means list of items in that folder
 - git clone https://github.com/jayadeep8712/ML_Notes.git 
    1. ***o/p ->  Cloning into 'ML_Notes'...***
@@ -10,7 +10,7 @@
 - ls
 - git add .                                           <- '.' means add all files in the folder
 - git commit -m "add files"
-- git push
+- git pushcd
 
   - - - -
 > ### *To add an empty dir to my repo*
